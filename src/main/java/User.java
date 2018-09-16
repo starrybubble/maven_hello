@@ -20,6 +20,7 @@ public class User {
         User user = User.builder().id("1").name("builder").age(1).build();
         System.out.println(user.getId());
         user.setId("2");
+        user.setName("revise");
         System.out.println(user.getId());
     }
 }
